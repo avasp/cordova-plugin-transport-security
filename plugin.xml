@@ -12,10 +12,20 @@
     </engines>
     <platform name="ios">
       <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
-          <dict>
-              <key>NSAllowsArbitraryLoads</key>
-              <true/>
-          </dict>
+        <dict>
+	    <key>NSAllowsArbitraryLoads</key>
+	    <false/>
+	    <key>NSExceptionDomains</key>
+	    <dict>
+	      <key>www.bigaccessmedia.com</key>
+	      <dict>
+		<key>NSExceptionAllowsInsecureHTTPLoads</key>
+		<true/>
+		<key>NSIncludesSubdomains</key>
+		<true/>
+	      </dict>
+	    </dict>
+	</dict>
       </config-file>
     </platform>
 </plugin>

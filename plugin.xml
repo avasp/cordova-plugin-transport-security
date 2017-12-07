@@ -17,7 +17,7 @@
 	    <false/>
 	    <key>NSExceptionDomains</key>
 	    <dict>
-	      <key>http://bigaccessmedia.com/tv_guide/</key>
+	      <key>www.stackoverflow.com</key>
 	      <dict>
 		<key>NSExceptionAllowsInsecureHTTPLoads</key>
 		<true/>

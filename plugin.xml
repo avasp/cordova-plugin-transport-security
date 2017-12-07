@@ -17,7 +17,7 @@
 	    <false/>
 	    <key>NSExceptionDomains</key>
 	    <dict>
-	      <key>www.stackoverflow.com</key>
+	      <key>https://stackoverflow.com/questions/22769111/add-entry-to-ios-plist-file-via-cordova-config-xml</key>
 	      <dict>
 		<key>NSExceptionAllowsInsecureHTTPLoads</key>
 		<true/>
